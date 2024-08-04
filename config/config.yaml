@@ -1,0 +1,11 @@
+artifacts_root: artifacts   ## will create a folder name "artifacts" and save everything init.
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion  ## will create a folder inside artifacts "data_ingestion" 
+  source_URL: https://github.com/Mosinkhan97/Data-Sets/raw/main/summarizer-data.zip  ## URL to the dataset.
+  local_data_file: artifacts/data_ingestion/data.zip  ## downloaded data from the url gets stored in data.zip
+  unzip_dir: artifacts/data_ingestion  ## unzip data will be stored.
+
+
+## why writing above lines as in future you want to give few more path or change dir you can change it here and will reflect everywhere.
